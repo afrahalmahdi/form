@@ -1,0 +1,64 @@
+H3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 140px;
+}
+
+.sign-up {
+    background-image: url("Untitled-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 4px 8px 0 rgb(166, 166, 166), 0 6px 20px 0 rgb(166, 166, 166);
+    min-height: 810px;
+    max-height: 810px;
+    min-width: 540px;
+    max-width: 540px;
+    margin: 100px;
+    padding: 30px;
+    z-index: 3;
+    border-radius: 40px;
+}
+
+.label-list {
+    margin-top: 10px;
+    float: left;
+    margin-left: 30px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 540px;
+}
+
+input {
+    width: 29%;
+    position: absolute;
+    left: 540px;
+    /* border-radius: 5px; */
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+input:focus {
+
+    outline: none !important;
+    border-bottom: 1.5px solid #008080;
+}
+
+#submit {
+    background-color: #00b3b3;
+    border: #cce6ff;
+    COLOR: White;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border-radius: 70px;
+}
